@@ -105,8 +105,5 @@ This project directly addresses critical pain points faced by modern fraud analy
 
 ## 🚀 Future Enhancements
 
-- ➕ Use a vector store to let your agents retrieve historical fraud examples, creating even more sophisticated rule sets.
-
 - ➕ Replace the RandomForest with gradient boosting models like **XGBoost** or **LightGBM** to capture more complex fraud patterns.
-
-- ➕ Deploy this entire pipeline as an API, enabling **real-time fraud checks** on incoming transactions.
+- ➕ Use a vector store to let your agents retrieve historical fraud examples, creating even more sophisticated rule sets.
