@@ -1,5 +1,7 @@
 # 🚀 Agentic AI for Fraud Detection
 
+> ⚠️ Currently implemented on a small dataset to demonstrate the system architecture, but designed to scale and extend with larger data.
+
 ---
 
 ## 📌 Problem Statement
@@ -10,7 +12,7 @@ We need:
 - A fraud detection system that blends static rules and dynamic learning.
 - The ability to automatically propose and refine fraud detection strategies as patterns change.
 - Memory to keep track of suspicious transactions over time.
-- Full transparency and explainability to satisfy compliance and risk teams.
+- Full transparency and explainability.
 
 ---
 
@@ -59,5 +61,6 @@ After running the pipeline, you will see:
 
 ## 🚀 Future Enhancements
 
+- ➕ Will run this on larger, real-world datasets and iteratively improve each step of the system.
 - ➕ Replace the RandomForest with gradient boosting models like **XGBoost** or **LightGBM** to capture more complex fraud patterns.
 - ➕ Use a vector store to let your agents retrieve historical fraud examples, creating even more sophisticated rule sets.
