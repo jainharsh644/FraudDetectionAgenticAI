@@ -45,22 +45,6 @@ This project is built around a **multi-agent control plane (MCP) architecture**,
 
 ---
 
-## 🚀 How the Agentic AI Works
-
-- **Rule Generation:**  
-  An LLM agent analyzes flagged suspicious transactions and writes new Python rules, learning from actual data patterns.
-
-- **Rule Review:**  
-  Another agent (powered by the same LLM) reviews these generated rules for logic, style, efficiency, and Python best practices. It often enhances them by adding type hints, docstrings, and better default handling.
-
-- **Memory:**  
-  The system logs all flagged transactions to a memory JSON file, maintaining historical suspicious behavior that the agents can leverage in future runs.
-
-- **Explainability:**  
-  SHAP plots clearly show which features most influence the fraud model, building trust with auditors and risk managers.
-
----
-
 ## 📈 Outputs & What to Expect
 
 After running the pipeline, you will see:
