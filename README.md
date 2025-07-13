@@ -16,7 +16,7 @@ We need:
 
 ## 🎯 Goals & Objectives
 
-✅ Build an **end-to-end fraud detection platform** that:
+✅ Build an **end-to-end fraud detection system** that:
 - Cleans and prepares transaction data.
 - Performs feature engineering to surface hidden fraud patterns.
 - Applies initial rule-based checks to detect suspicious activity.
@@ -42,8 +42,6 @@ This project is built around a **multi-agent control plane (MCP) architecture**,
 - **Explainability:** Generates SHAP summary plots to visualize which features drive fraud predictions.
 - **Agentic Rule Tuning:** Uses a language model (via Groq) to generate new Python fraud detection rules based on recent suspicious transactions.
 - **Agentic Rule Review:** Passes these rules to another agent to review for code quality, efficiency, style, and adds type hints & docstrings.
-
-This orchestrated flow precisely mirrors what modern fraud detection teams envision with **multi-cooperating agents (MCP) plus long-term learning.**
 
 ---
 
